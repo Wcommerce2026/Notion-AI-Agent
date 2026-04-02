@@ -14,223 +14,337 @@
 </head>
 <body>
 
-<svg width="100%" viewBox="0 0 680 1347.72" xmlns="http://www.w3.org/2000/svg">
+<script>
+// ============================================================
+//  PASTE YOUR NOTION PAGE LINKS BELOW
+// ============================================================
+const LINKS = {
+  platformKB         : "#",   // Platform Knowledge Base
+  contentStrategist  : "https://www.notion.so/heartmender/Content-Strategist-335fef780de680728083d5e7dc3ee36b",
+  performanceAnalyst : "https://www.notion.so/heartmender/Performance-Analyst-335fef780de6800cbb01fb39bd584ad4",
+  modelKB            : "#",   // Model KB
+  aiModelRecommender : "#",   // AI Model Recommender
+  conflictSolver     : "https://www.notion.so/heartmender/Conflict-Solver-335fef780de680878535c861a7abb47a",
+  creativeDirector   : "https://www.notion.so/heartmender/Creative-Director-335fef780de680608d58ec8fbfeab96d",
+  scriptWriter       : "https://www.notion.so/heartmender/Script-Writer-335fef780de68003b64cdd9287b0a387",
+  videoMaker         : "https://www.notion.so/heartmender/Video-Maker-335fef780de6805b818efda78c550ddf",
+  graphicDesigner    : "https://www.notion.so/heartmender/Graphic-Designer-335fef780de680cb8420f0938879580d",
+  scriptEditor       : "https://www.notion.so/heartmender/Script-Editor-335fef780de68059884aff013402639d",
+  videoEditor        : "https://www.notion.so/heartmender/Video-Editor-335fef780de68024a9daf5573195dd2d",
+  humanApproval      : "https://www.notion.so/heartmender/Human-Approval-Gate-335fef780de680fb97c4c620470f720f",
+  schedulePosting    : "https://www.notion.so/heartmender/Schedule-For-Posting-335fef780de6800f8782dd672cb0b252",
+  contentScheduler   : "https://www.notion.so/heartmender/Content-Scheduler-335fef780de68073bd05e687be5c2e95",
+  disapprovalCounter : "https://www.notion.so/heartmender/Disapproval-Counter-335fef780de680948559c8a26f37080a",
+  skipSlot           : "https://www.notion.so/heartmender/Skip-Slot-335fef780de6808a9765f08b6514057c",
+};
+// ============================================================
+
+function go(key) {
+  const url = LINKS[key];
+  if (url && url !== "#") { window.open(url, "_top"); }
+}
+</script>
+
+<svg width="100%" viewBox="0 0 680 1010" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
     <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </marker>
-<mask id="imagine-text-gaps-6flmm5" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="1347.72" fill="white"/><rect x="155.28968811035156" y="9.866632461547852" width="368.8882751464844" height="26.666709899902344" fill="black" rx="2"/><rect x="274.11279296875" y="71.38665008544922" width="133.04046630859375" height="21.226699829101562" fill="black" rx="2"/><rect x="253.35153198242188" y="88.74665832519531" width="173.37615966796875" height="18.506693840026855" fill="black" rx="2"/><rect x="226.427734375" y="104.74665832519531" width="227.3296356201172" height="19.413362503051758" fill="black" rx="2"/><rect x="63.11742401123047" y="71.38665008544922" width="93.7651596069336" height="21.226699829101562" fill="black" rx="2"/><rect x="79.62162017822266" y="87.38665008544922" width="61.11761474609375" height="21.226699829101562" fill="black" rx="2"/><rect x="64.31450653076172" y="104.74665832519531" width="92.46051025390625" height="19.413362503051758" fill="black" rx="2"/><rect x="376.0000305175781" y="141.21331787109375" width="42.24856185913086" height="18.506693840026855" fill="black" rx="2"/><rect x="277.8882141113281" y="181.38665771484375" width="125.71902465820312" height="21.226699829101562" fill="black" rx="2"/><rect x="259.9886474609375" y="198.7466583251953" width="160.4292755126953" height="18.506693840026855" fill="black" rx="2"/><rect x="234.6090087890625" y="214.7466583251953" width="210.96815490722656" height="19.41334819793701" fill="black" rx="2"/><rect x="102.22493743896484" y="287.38665771484375" width="96.1359634399414" height="21.226699829101562" fill="black" rx="2"/><rect x="83.87198638916016" y="304.74664306640625" width="133.34613037109375" height="18.506693840026855" fill="black" rx="2"/><rect x="292.6782531738281" y="287.38665771484375" width="95.22607421875" height="21.226699829101562" fill="black" rx="2"/><rect x="294.07366943359375" y="304.74664306640625" width="92.9343032836914" height="18.506693840026855" fill="black" rx="2"/><rect x="467.9944763183594" y="287.38665771484375" width="125.50203704833984" height="21.226699829101562" fill="black" rx="2"/><rect x="491.70953369140625" y="304.74664306640625" width="76.76579284667969" height="18.506693840026855" fill="black" rx="2"/><rect x="103.23077392578125" y="377.38665771484375" width="94.12712860107422" height="21.226699829101562" fill="black" rx="2"/><rect x="76.3282241821289" y="394.74664306640625" width="148.05331420898438" height="18.506693840026855" fill="black" rx="2"/><rect x="293.648681640625" y="377.38665771484375" width="93.2872314453125" height="21.226699829101562" fill="black" rx="2"/><rect x="304.37994384765625" y="394.74664306640625" width="72.23762512207031" height="18.506693840026855" fill="black" rx="2"/><rect x="375.0933532714844" y="346.21331787109375" width="114.96556091308594" height="18.506693840026855" fill="black" rx="2"/><rect x="252.352783203125" y="489.57330322265625" width="175.91831970214844" height="24.85337257385254" fill="black" rx="2"/><rect x="230.85482788085938" y="510.74664306640625" width="219.50277709960938" height="18.506693840026855" fill="black" rx="2"/><rect x="206.7501983642578" y="526.7466430664062" width="267.8614807128906" height="18.506693840026855" fill="black" rx="2"/><rect x="258.82696533203125" y="542.7466430664062" width="163.0653533935547" height="18.506693840026855" fill="black" rx="2"/><rect x="566" y="500.3066711425781" width="92.83021545410156" height="20.320030212402344" fill="black" rx="2"/><rect x="579.202880859375" y="504.3866882324219" width="70.68761825561523" height="21.226699829101562" fill="black" rx="2"/><rect x="600.0632934570312" y="520.3866577148438" width="31.359161376953125" height="21.226699829101562" fill="black" rx="2"/><rect x="586.3995361328125" y="536.3866577148438" width="58.15357971191406" height="21.226699829101562" fill="black" rx="2"/><rect x="548.07861328125" y="661.3866577148438" width="135.33627319335938" height="21.226699829101562" fill="black" rx="2"/><rect x="559.9503173828125" y="678.7467041015625" width="111.19102478027344" height="18.506693840026855" fill="black" rx="2"/><rect x="566.0916137695312" y="694.7466430664062" width="97.52143859863281" height="18.506693840026855" fill="black" rx="2"/><rect x="-0.30686473846435547" y="500.3066711425781" width="114.5780258178711" height="20.320030212402344" fill="black" rx="2"/><rect x="56.361595153808594" y="589.3866577148438" width="87.27699279785156" height="21.226699829101562" fill="black" rx="2"/><rect x="68.36786651611328" y="605.3866577148438" width="64.75362777709961" height="21.226699829101562" fill="black" rx="2"/><rect x="68.89203643798828" y="630.7466430664062" width="61.38484573364258" height="18.506693840026855" fill="black" rx="2"/><rect x="53.6415901184082" y="646.7466430664062" width="92.79842376708984" height="18.506693840026855" fill="black" rx="2"/><rect x="68.55912017822266" y="662.7467041015625" width="63.33818817138672" height="18.506693840026855" fill="black" rx="2"/><rect x="46.86282730102539" y="680.7467041015625" width="106.10111236572266" height="18.506693840026855" fill="black" rx="2"/><rect x="115.09333038330078" y="486.2132873535156" width="92.91924285888672" height="18.506693840026855" fill="black" rx="2"/><rect x="116" y="502.21331787109375" width="72.65143585205078" height="18.506693840026855" fill="black" rx="2"/><rect x="145.0933380126953" y="755.306640625" width="152.90737915039062" height="20.320030212402344" fill="black" rx="2"/><rect x="306.22869873046875" y="751.3866577148438" width="67.89312744140625" height="21.226699829101562" fill="black" rx="2"/><rect x="264.2244873046875" y="770.7467041015625" width="152.85739135742188" height="19.413362503051758" fill="black" rx="2"/><rect x="268.5028076171875" y="786.7467041015625" width="143.71702575683594" height="18.506693840026855" fill="black" rx="2"/><rect x="286.6078186035156" y="802.7466430664062" width="107.07872772216797" height="18.506693840026855" fill="black" rx="2"/><rect x="555.0933837890625" y="416.21331787109375" width="89.83561706542969" height="18.506693840026855" fill="black" rx="2"/><rect x="556" y="432.21331787109375" width="64.13275527954102" height="18.506693840026855" fill="black" rx="2"/><rect x="516.3599243164062" y="69.38665008544922" width="108.76630401611328" height="21.226699829101562" fill="black" rx="2"/><rect x="502.12945556640625" y="88.74665832519531" width="136.8248291015625" height="18.506693840026855" fill="black" rx="2"/><rect x="507.0665588378906" y="104.74665832519531" width="127.06768035888672" height="18.506693840026855" fill="black" rx="2"/><rect x="510.26824951171875" y="120.74665069580078" width="118.97484588623047" height="18.506693840026855" fill="black" rx="2"/><rect x="356" y="246.2133026123047" width="93.82190704345703" height="18.506693840026855" fill="black" rx="2"/><rect x="243.5127716064453" y="874.4000244140625" width="193.8626708984375" height="21.226699829101562" fill="black" rx="2"/><rect x="45.09333419799805" y="911.2133178710938" width="145.6613006591797" height="19.41341781616211" fill="black" rx="2"/><rect x="45.09333419799805" y="929.21337890625" width="330.7773742675781" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="945.2133178710938" width="313.6542053222656" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="961.2132568359375" width="370.1636047363281" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="991.21337890625" width="183.10032653808594" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1009.21337890625" width="336.73895263671875" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="1025.2132568359375" width="307.7464904785156" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1041.21337890625" width="351.1331481933594" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="1057.21337890625" width="385.99127197265625" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="1087.2132568359375" width="243.81207275390625" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1105.2132568359375" width="363.9810485839844" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1121.21337890625" width="287.252685546875" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1137.2132568359375" width="365.84918212890625" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="1153.21337890625" width="353.34027099609375" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="1183.21337890625" width="102.71244812011719" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1201.21337890625" width="374.5718078613281" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1217.2132568359375" width="407.0007629394531" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="1233.21337890625" width="396.8078308105469" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1263.2132568359375" width="252.4656524658203" height="19.413362503051758" fill="black" rx="2"/><rect x="45.09333419799805" y="1281.2132568359375" width="403.7890319824219" height="18.506693840026855" fill="black" rx="2"/><rect x="45.09333419799805" y="1297.21337890625" width="347.8285217285156" height="19.413362503051758" fill="black" rx="2"/><rect x="64" y="1321.2132568359375" width="79.6026840209961" height="18.506693840026855" fill="black" rx="2"/><rect x="183.0933380126953" y="1321.2132568359375" width="93.7040786743164" height="18.506693840026855" fill="black" rx="2"/><rect x="314" y="1321.2132568359375" width="125.4572982788086" height="18.506693840026855" fill="black" rx="2"/><rect x="483.0933532714844" y="1321.2132568359375" width="73.9599609375" height="18.506693840026855" fill="black" rx="2"/></mask></defs>
+<mask id="textmask" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="1010" fill="white"/>
+<rect x="189.28" y="9.87" width="300.90" height="26.67" fill="black" rx="2"/>
+<rect x="77.46" y="69.39" width="65.43" height="21.23" fill="black" rx="2"/>
+<rect x="51.04" y="85.39" width="117.92" height="21.23" fill="black" rx="2"/>
+<rect x="49.75" y="106.75" width="120.92" height="18.51" fill="black" rx="2"/>
+<rect x="51.98" y="122.75" width="116.46" height="18.51" fill="black" rx="2"/>
+<rect x="174.42" y="81.21" width="52.25" height="18.51" fill="black" rx="2"/>
+<rect x="274.11" y="71.39" width="133.04" height="21.23" fill="black" rx="2"/>
+<rect x="253.03" y="88.75" width="173.46" height="18.51" fill="black" rx="2"/>
+<rect x="276.17" y="104.75" width="127.96" height="18.51" fill="black" rx="2"/>
+<rect x="249.89" y="120.75" width="180.41" height="19.41" fill="black" rx="2"/>
+<rect x="523.12" y="71.39" width="93.77" height="21.23" fill="black" rx="2"/>
+<rect x="539.62" y="87.39" width="61.12" height="21.23" fill="black" rx="2"/>
+<rect x="510.54" y="104.75" width="118.41" height="18.51" fill="black" rx="2"/>
+<rect x="524.31" y="120.75" width="92.46" height="19.41" fill="black" rx="2"/>
+<rect x="376" y="158.21" width="36.77" height="18.51" fill="black" rx="2"/>
+<rect x="255.19" y="201.39" width="170.21" height="21.23" fill="black" rx="2"/>
+<rect x="262.18" y="218.75" width="156.04" height="19.41" fill="black" rx="2"/>
+<rect x="256.37" y="234.75" width="167.85" height="18.51" fill="black" rx="2"/>
+<rect x="267.27" y="250.75" width="145.96" height="18.51" fill="black" rx="2"/>
+<rect x="73.99" y="201.39" width="72.75" height="21.23" fill="black" rx="2"/>
+<rect x="71.42" y="218.75" width="77.34" height="18.51" fill="black" rx="2"/>
+<rect x="86.58" y="234.75" width="48.15" height="18.51" fill="black" rx="2"/>
+<rect x="77.60" y="250.75" width="65.89" height="18.51" fill="black" rx="2"/>
+<rect x="406" y="288.21" width="183.73" height="18.51" fill="black" rx="2"/>
+<rect x="277.89" y="331.39" width="125.72" height="21.23" fill="black" rx="2"/>
+<rect x="259.99" y="348.75" width="160.43" height="18.51" fill="black" rx="2"/>
+<rect x="234.61" y="364.75" width="210.97" height="19.41" fill="black" rx="2"/>
+<rect x="195.09" y="401.21" width="74.25" height="18.51" fill="black" rx="2"/>
+<rect x="102.22" y="437.39" width="96.14" height="21.23" fill="black" rx="2"/>
+<rect x="70.94" y="454.75" width="158.71" height="18.51" fill="black" rx="2"/>
+<rect x="292.68" y="437.39" width="95.23" height="21.23" fill="black" rx="2"/>
+<rect x="294.07" y="454.75" width="92.93" height="18.51" fill="black" rx="2"/>
+<rect x="467.99" y="437.39" width="125.50" height="21.23" fill="black" rx="2"/>
+<rect x="491.71" y="454.75" width="76.77" height="18.51" fill="black" rx="2"/>
+<rect x="103.23" y="527.39" width="94.13" height="21.23" fill="black" rx="2"/>
+<rect x="76.33" y="544.75" width="148.05" height="18.51" fill="black" rx="2"/>
+<rect x="293.65" y="527.39" width="93.29" height="21.23" fill="black" rx="2"/>
+<rect x="304.38" y="544.75" width="72.24" height="18.51" fill="black" rx="2"/>
+<rect x="375.09" y="496.21" width="65.75" height="18.51" fill="black" rx="2"/>
+<rect x="252.35" y="639.57" width="175.92" height="24.85" fill="black" rx="2"/>
+<rect x="230.85" y="660.75" width="219.50" height="18.51" fill="black" rx="2"/>
+<rect x="206.75" y="676.75" width="267.86" height="18.51" fill="black" rx="2"/>
+<rect x="258.83" y="692.75" width="163.07" height="18.51" fill="black" rx="2"/>
+<rect x="566" y="650.31" width="92.83" height="20.32" fill="black" rx="2"/>
+<rect x="579.20" y="654.39" width="70.69" height="21.23" fill="black" rx="2"/>
+<rect x="600.06" y="670.39" width="31.36" height="21.23" fill="black" rx="2"/>
+<rect x="586.40" y="686.39" width="58.15" height="21.23" fill="black" rx="2"/>
+<rect x="548.08" y="811.39" width="135.34" height="21.23" fill="black" rx="2"/>
+<rect x="559.95" y="828.75" width="111.19" height="18.51" fill="black" rx="2"/>
+<rect x="566.09" y="844.75" width="97.52" height="18.51" fill="black" rx="2"/>
+<rect x="-0.31" y="650.31" width="114.58" height="20.32" fill="black" rx="2"/>
+<rect x="56.36" y="739.39" width="87.28" height="21.23" fill="black" rx="2"/>
+<rect x="68.37" y="755.39" width="64.75" height="21.23" fill="black" rx="2"/>
+<rect x="68.89" y="780.75" width="61.38" height="18.51" fill="black" rx="2"/>
+<rect x="53.64" y="796.75" width="92.80" height="18.51" fill="black" rx="2"/>
+<rect x="68.56" y="812.75" width="63.34" height="18.51" fill="black" rx="2"/>
+<rect x="46.86" y="830.75" width="106.10" height="18.51" fill="black" rx="2"/>
+<rect x="115.09" y="636.21" width="92.92" height="18.51" fill="black" rx="2"/>
+<rect x="116" y="652.21" width="72.65" height="18.51" fill="black" rx="2"/>
+<rect x="145.09" y="905.31" width="78.18" height="20.32" fill="black" rx="2"/>
+<rect x="306.23" y="901.39" width="67.89" height="21.23" fill="black" rx="2"/>
+<rect x="264.22" y="920.75" width="152.86" height="19.41" fill="black" rx="2"/>
+<rect x="268.50" y="936.75" width="143.72" height="18.51" fill="black" rx="2"/>
+<rect x="286.61" y="952.75" width="107.08" height="18.51" fill="black" rx="2"/>
+<rect x="555.09" y="496.21" width="62.43" height="18.51" fill="black" rx="2"/>
+<rect x="556" y="512.21" width="64.13" height="18.51" fill="black" rx="2"/>
+<rect x="516.36" y="199.39" width="108.77" height="21.23" fill="black" rx="2"/>
+<rect x="509.70" y="218.75" width="121.68" height="18.51" fill="black" rx="2"/>
+<rect x="519.29" y="234.75" width="102.52" height="18.51" fill="black" rx="2"/>
+<rect x="510.27" y="250.75" width="118.97" height="18.51" fill="black" rx="2"/>
+<rect x="356" y="396.21" width="93.82" height="18.51" fill="black" rx="2"/>
+</mask>
+</defs>
 
 <!-- Title -->
-<text x="340" y="30" text-anchor="middle" style="font-size:18px;fill:rgb(250, 249, 245);stroke:none;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">AI Marketing Team - Human Approval Flow</text>
+<text x="340" y="30" text-anchor="middle" style="font-size:18px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">AI Marketing Team - Updated Flow</text>
 
-<!-- TIER 1: Content Strategist -->
-<a href="https://www.notion.so/heartmender/Content-Strategist-335fef780de680728083d5e7dc3ee36b" target="_top">
-  <rect x="210" y="60" width="260" height="70" rx="8" stroke-width="0.5" style="fill:rgb(8,80,65);stroke:rgb(93,202,165);"/>
+<!-- ── ROW 1: Platform KB | Content Strategist | Performance Analyst ── -->
+
+<!-- Platform Knowledge Base -->
+<a href="javascript:go('platformKB')">
+  <rect x="30" y="60" width="160" height="85" rx="8" style="fill:rgb(12,68,124);stroke:rgb(133,183,235);stroke-width:0.5;"/>
+  <text x="110" y="80" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Platform</text>
+  <text x="110" y="96" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Knowledge Base</text>
+  <text x="110" y="116" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Instagram algorithm</text>
+  <text x="110" y="132" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Pinterest algorithm</text>
+</a>
+
+<!-- Informs arrow + label -->
+<line x1="190" y1="102" x2="210" y2="102" marker-end="url(#arrow)" stroke="#378ADD" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
+<text x="200" y="95" text-anchor="middle" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Informs</text>
+
+<!-- Content Strategist -->
+<a href="javascript:go('contentStrategist')">
+  <rect x="210" y="60" width="260" height="85" rx="8" style="fill:rgb(8,80,65);stroke:rgb(93,202,165);stroke-width:0.5;"/>
   <text x="340" y="82" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Content Strategist</text>
-  <text x="340" y="98" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Creates briefs, sets direction</text>
-  <text x="340" y="114" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Authority: Final say on content themes</text>
+  <text x="340" y="98" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Creates briefs using platform</text>
+  <text x="340" y="114" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">algorithm knowledge</text>
+  <text x="340" y="130" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Authority: Final say on themes</text>
 </a>
 
-<!-- Performance Analyst (Left side) -->
-<a href="https://www.notion.so/heartmender/Performance-Analyst-335fef780de6800cbb01fb39bd584ad4" target="_top">
-  <rect x="30" y="60" width="160" height="70" rx="8" stroke-width="0.5" style="fill:rgb(12,68,124);stroke:rgb(133,183,235);"/>
-  <text x="110" y="82" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Performance</text>
-  <text x="110" y="98" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Analyst</text>
-  <text x="110" y="114" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Every 48 hours</text>
+<!-- Performance Analyst -->
+<a href="javascript:go('performanceAnalyst')">
+  <rect x="490" y="60" width="160" height="85" rx="8" style="fill:rgb(12,68,124);stroke:rgb(133,183,235);stroke-width:0.5;"/>
+  <text x="570" y="82" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Performance</text>
+  <text x="570" y="98" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Analyst</text>
+  <text x="570" y="114" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Tracks engagement</text>
+  <text x="570" y="130" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Every 48 hours</text>
 </a>
 
-<!-- Bidirectional data flow -->
-<line x1="190" y1="85" x2="210" y2="85" marker-end="url(#arrow)" stroke="#378ADD" stroke-width="1.5" fill="none"/>
-<line x1="210" y1="105" x2="190" y2="105" marker-end="url(#arrow)" stroke="#1D9E75" stroke-width="1.5" fill="none"/>
+<!-- Bidirectional CS ↔ PA -->
+<line x1="470" y1="92" x2="490" y2="92" marker-end="url(#arrow)" stroke="#1D9E75" stroke-width="1.5" fill="none"/>
+<line x1="490" y1="112" x2="470" y2="112" marker-end="url(#arrow)" stroke="#378ADD" stroke-width="1.5" fill="none"/>
 
-<!-- Arrow down to Creative Director -->
-<line x1="340" y1="130" x2="340" y2="170" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
-<text x="380" y="155" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Briefs</text>
+<!-- ── Arrow down to AI Model Recommender ── -->
+<line x1="340" y1="145" x2="340" y2="190" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
+<text x="380" y="172" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Brief</text>
 
-<!-- TIER 2: Creative Director -->
-<a href="https://www.notion.so/heartmender/Creative-Director-335fef780de680608d58ec8fbfeab96d" target="_top">
-  <rect x="210" y="170" width="260" height="70" rx="8" stroke-width="0.5" style="fill:rgb(113,43,19);stroke:rgb(240,153,123);"/>
-  <text x="340" y="192" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Creative Director</text>
-  <text x="340" y="208" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Reviews all creative output</text>
-  <text x="340" y="224" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Authority: Approve/reject creatives</text>
+<!-- ── ROW 2: Model KB | AI Model Recommender | Conflict Solver ── -->
+
+<!-- Model KB -->
+<a href="javascript:go('modelKB')">
+  <rect x="30" y="190" width="160" height="85" rx="8" style="fill:rgb(68,68,65);stroke:rgb(180,178,169);stroke-width:0.5;"/>
+  <text x="110" y="212" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Model KB</text>
+  <text x="110" y="228" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Capabilities</text>
+  <text x="110" y="244" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Pricing</text>
+  <text x="110" y="260" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Use cases</text>
 </a>
 
-<!-- Arrows to sub-agents -->
-<line x1="260" y1="240" x2="150" y2="280" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
-<line x1="340" y1="240" x2="340" y2="280" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
-<line x1="420" y1="240" x2="530" y2="280" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#imagine-text-gaps-6flmm5)"/>
+<!-- Model KB → AI Model Recommender -->
+<line x1="190" y1="232" x2="210" y2="232" marker-end="url(#arrow)" stroke="#888780" stroke-width="1.5" stroke-dasharray="4 4" fill="none"/>
 
-<!-- TIER 3: Content Creation Sub-agents -->
-<a href="https://www.notion.so/heartmender/Script-Writer-335fef780de68003b64cdd9287b0a387" target="_top">
-  <rect x="50" y="280" width="200" height="56" rx="8" stroke-width="0.5" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);"/>
-  <text x="150" y="298" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Script Writer</text>
-  <text x="150" y="314" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Reels + Statics scripts</text>
+<!-- AI Model Recommender -->
+<a href="javascript:go('aiModelRecommender')">
+  <rect x="210" y="190" width="260" height="85" rx="8" style="fill:rgb(99,56,6);stroke:rgb(239,159,39);stroke-width:1;"/>
+  <text x="340" y="212" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">AI Model Recommender</text>
+  <text x="340" y="228" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Analyzes brief complexity</text>
+  <text x="340" y="244" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Recommends optimal model</text>
+  <text x="340" y="260" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">GPT-4 / Sonnet / GPT-3.5</text>
 </a>
-
-<a href="https://www.notion.so/heartmender/Video-Maker-335fef780de6805b818efda78c550ddf" target="_top">
-  <rect x="270" y="280" width="140" height="56" rx="8" stroke-width="0.5" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);"/>
-  <text x="340" y="298" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Video Maker</text>
-  <text x="340" y="314" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Produces reels</text>
-</a>
-
-<a href="https://www.notion.so/heartmender/Graphic-Designer-335fef780de680cb8420f0938879580d" target="_top">
-  <rect x="430" y="280" width="200" height="56" rx="8" stroke-width="0.5" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);"/>
-  <text x="530" y="298" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Graphic Designer</text>
-  <text x="530" y="314" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Static posts</text>
-</a>
-
-<!-- Arrows to editors -->
-<line x1="150" y1="336" x2="150" y2="370" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
-<line x1="340" y1="336" x2="340" y2="370" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
-
-<!-- TIER 4: Quality Control -->
-<a href="https://www.notion.so/heartmender/Script-Editor-335fef780de68059884aff013402639d" target="_top">
-  <rect x="50" y="370" width="200" height="56" rx="8" stroke-width="0.5" style="fill:rgb(99,56,6);stroke:rgb(239,159,39);"/>
-  <text x="150" y="388" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Script Editor</text>
-  <text x="150" y="404" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Max 2 rejections allowed</text>
-</a>
-
-<a href="https://www.notion.so/heartmender/Video-Editor-335fef780de68024a9daf5573195dd2d" target="_top">
-  <rect x="270" y="370" width="140" height="56" rx="8" stroke-width="0.5" style="fill:rgb(99,56,6);stroke:rgb(239,159,39);"/>
-  <text x="340" y="388" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Video Editor</text>
-  <text x="340" y="404" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Final polish</text>
-</a>
-
-<!-- Approval flow to Creative Director -->
-<path d="M250 398 L470 230" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#imagine-text-gaps-6flmm5)"/>
-<path d="M410 398 L470 230" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#imagine-text-gaps-6flmm5)"/>
-<path d="M630 308 L470 220" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
-
-<!-- Creative Director approves and sends to Human -->
-<line x1="340" y1="240" x2="340" y2="480" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#imagine-text-gaps-6flmm5)"/>
-<text x="380" y="360" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Approved creative</text>
-
-<!-- ====== HUMAN APPROVAL GATE ====== -->
-<a href="https://www.notion.so/heartmender/Human-Approval-Gate-335fef780de680fb97c4c620470f720f" target="_top">
-  <rect x="180" y="480" width="320" height="90" rx="8" stroke-width="2" style="fill:rgb(60,52,137);stroke:rgb(175,169,236);"/>
-  <text x="340" y="502" text-anchor="middle" dominant-baseline="central" style="font-size:16px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">Human Approval Gate</text>
-  <text x="340" y="520" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Marketing Lead reviews final creative</text>
-  <text x="340" y="536" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Decision: Approve OR Disapprove + Feedback</text>
-  <text x="340" y="552" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Max 2 disapprovals allowed</text>
-</a>
-
-<!-- APPROVED PATH -->
-<line x1="500" y1="525" x2="570" y2="525" marker-end="url(#arrow)" stroke="#639922" stroke-width="2" fill="none"/>
-<text x="570" y="515" style="font-size:13px;fill:rgb(99,153,34);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">✓ APPROVED</text>
-
-<a href="https://www.notion.so/heartmender/Schedule-For-Posting-335fef780de6800f8782dd672cb0b252" target="_top">
-  <rect x="570" y="490" width="90" height="70" rx="8" stroke-width="1" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);"/>
-  <text x="615" y="515" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Schedule</text>
-  <text x="615" y="531" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">For</text>
-  <text x="615" y="547" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Posting</text>
-</a>
-
-<line x1="615" y1="560" x2="615" y2="650" marker-end="url(#arrow)" stroke="#639922" stroke-width="2" fill="none"/>
-
-<!-- Content Scheduler -->
-<a href="https://www.notion.so/heartmender/Content-Scheduler-335fef780de68073bd05e687be5c2e95" target="_top">
-  <rect x="520" y="650" width="190" height="70" rx="8" stroke-width="0.5" style="fill:rgb(114,36,62);stroke:rgb(237,147,177);"/>
-  <text x="615" y="672" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Content Scheduler</text>
-  <text x="615" y="688" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Posts to platforms</text>
-  <text x="615" y="704" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Tracks calendar</text>
-</a>
-
-<!-- DISAPPROVED PATH -->
-<line x1="180" y1="525" x2="110" y2="525" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="2" fill="none"/>
-<text x="110" y="515" text-anchor="end" style="font-size:13px;fill:rgb(226,75,74);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">✗ DISAPPROVED</text>
-
-<!-- Disapproval Counter Box -->
-<a href="https://www.notion.so/heartmender/Disapproval-Counter-335fef780de680948559c8a26f37080a" target="_top">
-  <rect x="20" y="580" width="160" height="120" rx="8" stroke-width="1" style="fill:rgb(121,31,31);stroke:rgb(240,149,149);"/>
-  <text x="100" y="600" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Disapproval</text>
-  <text x="100" y="616" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Counter</text>
-  <text x="100" y="640" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Count = 1</text>
-  <text x="100" y="656" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">→ Rework with</text>
-  <text x="100" y="672" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">feedback</text>
-  <text x="100" y="690" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;">Count = 2 → SKIP</text>
-</a>
-
-<!-- Rework path (1st disapproval) -->
-<path d="M100 580 L100 440 L210 205" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="1.5" fill="none" stroke-dasharray="4 4" mask="url(#imagine-text-gaps-6flmm5)"/>
-<text x="120" y="500" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">1st disapproval</text>
-<text x="120" y="516" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">+ feedback</text>
-
-<!-- Skip path (2nd disapproval) -->
-<path d="M100 700 L100 780 L240 780" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="2" fill="none"/>
-<text x="150" y="770" style="font-size:13px;fill:rgb(226,75,74);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">2nd disapproval → SKIP</text>
-
-<!-- Skip Action Box -->
-<a href="https://www.notion.so/heartmender/Skip-Slot-335fef780de6808a9765f08b6514057c" target="_top">
-  <rect x="240" y="740" width="200" height="80" rx="8" stroke-width="1" style="fill:rgb(68,68,65);stroke:rgb(180,178,169);"/>
-  <text x="340" y="762" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Skip Slot</text>
-  <text x="340" y="780" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Mark calendar slot empty</text>
-  <text x="340" y="796" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Move to next scheduled</text>
-  <text x="340" y="812" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">creative in queue</text>
-</a>
-
-<!-- Return to Content Strategist to continue -->
-<path d="M440 770 L550 770 L550 95 L470 95" marker-end="url(#arrow)" stroke="#888780" stroke-width="1.5" fill="none" stroke-dasharray="4 4" mask="url(#imagine-text-gaps-6flmm5)"/>
-<text x="560" y="430" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Continue with</text>
-<text x="560" y="446" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">next brief</text>
 
 <!-- Conflict Solver -->
-<a href="https://www.notion.so/heartmender/Conflict-Solver-335fef780de680878535c861a7abb47a" target="_top">
-  <rect x="480" y="60" width="180" height="90" rx="8" stroke-width="1" style="fill:rgb(121,31,31);stroke:rgb(240,149,149);"/>
-  <text x="570" y="80" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Conflict Solver</text>
-  <text x="570" y="98" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Monitors all workflows</text>
-  <text x="570" y="114" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Max 2 rejections rule</text>
-  <text x="570" y="130" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">6-hour SLA timeout</text>
+<a href="javascript:go('conflictSolver')">
+  <rect x="480" y="190" width="180" height="85" rx="8" style="fill:rgb(121,31,31);stroke:rgb(240,149,149);stroke-width:1;"/>
+  <text x="570" y="210" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Conflict Solver</text>
+  <text x="570" y="228" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Monitors workflows</text>
+  <text x="570" y="244" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Max 2 rejections</text>
+  <text x="570" y="260" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">6-hour SLA timeout</text>
 </a>
 
-<!-- Conflict detection from editors -->
-<path d="M250 398 L480 130" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1" fill="none" stroke-dasharray="4 4" mask="url(#imagine-text-gaps-6flmm5)"/>
-<path d="M410 398 L550 150" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1" fill="none" stroke-dasharray="4 4" mask="url(#imagine-text-gaps-6flmm5)"/>
-<text x="360" y="260" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">If 2+ rejections</text>
+<!-- Arrow down to Creative Director -->
+<line x1="340" y1="275" x2="340" y2="320" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
+<text x="410" y="302" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Brief + Model recommendation</text>
 
-<!-- Rules Box -->
-<rect x="30" y="860" width="620" height="450" rx="8" fill="none" stroke="rgba(222,220,209,0.3)" stroke-width="1"/>
-<text x="340" y="890" text-anchor="middle" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Human Approval Flow Rules</text>
+<!-- ── ROW 3: Creative Director ── -->
 
-<text x="50" y="925" style="font-size:12px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">1. Human Approval Gate</text>
-<text x="50" y="943" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Triggers: After Creative Director approves final creative</text>
-<text x="50" y="959" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Human reviews: Quality, brand alignment, messaging</text>
-<text x="50" y="975" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Decision required: Approve OR Disapprove + written feedback</text>
+<a href="javascript:go('creativeDirector')">
+  <rect x="210" y="320" width="260" height="70" rx="8" style="fill:rgb(113,43,19);stroke:rgb(240,153,123);stroke-width:0.5;"/>
+  <text x="340" y="342" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Creative Director</text>
+  <text x="340" y="358" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Reviews all creative output</text>
+  <text x="340" y="374" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Authority: Approve/reject creatives</text>
+</a>
 
-<text x="50" y="1005" style="font-size:12px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">2. First Disapproval (Count = 1)</text>
-<text x="50" y="1023" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Human provides: Specific feedback on what needs fixing</text>
-<text x="50" y="1039" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• System action: Creative Director receives feedback</text>
-<text x="50" y="1055" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Rework: Entire creative pipeline re-executes with feedback</text>
-<text x="50" y="1071" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Re-submission: Revised creative returns to Human Approval Gate</text>
+<!-- CD → sub-agents -->
+<line x1="260" y1="390" x2="150" y2="430" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#textmask)"/>
+<line x1="340" y1="390" x2="340" y2="430" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
+<line x1="420" y1="390" x2="530" y2="430" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#textmask)"/>
+<text x="200" y="415" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">With model</text>
 
-<text x="50" y="1101" style="font-size:12px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">3. Second Disapproval (Count = 2) → SKIP</text>
-<text x="50" y="1119" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Slot marked: Content calendar slot for that day/time = EMPTY</text>
-<text x="50" y="1135" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• No retry: System does NOT attempt 3rd revision</text>
-<text x="50" y="1151" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Move on: Content Strategist proceeds to next scheduled brief</text>
-<text x="50" y="1167" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Post-mortem: Conflict Solver logs failure reason for learning</text>
+<!-- ── ROW 4: Script Writer | Video Maker | Graphic Designer ── -->
 
-<text x="50" y="1197" style="font-size:12px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">4. Approval Path</text>
-<text x="50" y="1215" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Human approves → Creative immediately scheduled for posting</text>
-<text x="50" y="1231" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Content Scheduler: Takes approved creative, posts at scheduled time</text>
-<text x="50" y="1247" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Tracking: Post performance data flows back to Performance Analyst</text>
+<a href="javascript:go('scriptWriter')">
+  <rect x="50" y="430" width="200" height="56" rx="8" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);stroke-width:0.5;"/>
+  <text x="150" y="448" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Script Writer</text>
+  <text x="150" y="464" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Uses recommended model</text>
+</a>
 
-<text x="50" y="1277" style="font-size:12px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">5. Feedback Documentation Requirements</text>
-<text x="50" y="1295" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Format: Structured JSON with {reason, specific_issues, suggestions}</text>
-<text x="50" y="1311" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">• Mandatory fields: What's wrong, why it's wrong, what to fix</text>
+<a href="javascript:go('videoMaker')">
+  <rect x="270" y="430" width="140" height="56" rx="8" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);stroke-width:0.5;"/>
+  <text x="340" y="448" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Video Maker</text>
+  <text x="340" y="464" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Produces reels</text>
+</a>
 
-<!-- Legend -->
-<rect x="40" y="1325" width="20" height="12" rx="2" stroke-width="0.5" style="fill:rgb(60,52,137);stroke:rgb(175,169,236);"/>
-<text x="68" y="1335" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Human Gate</text>
+<a href="javascript:go('graphicDesigner')">
+  <rect x="430" y="430" width="200" height="56" rx="8" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);stroke-width:0.5;"/>
+  <text x="530" y="448" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Graphic Designer</text>
+  <text x="530" y="464" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Static posts</text>
+</a>
 
-<rect x="160" y="1325" width="20" height="12" rx="2" stroke-width="0.5" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);"/>
-<text x="188" y="1335" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Approved Path</text>
+<!-- Creators → editors -->
+<line x1="150" y1="486" x2="150" y2="520" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
+<line x1="340" y1="486" x2="340" y2="520" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
 
-<rect x="290" y="1325" width="20" height="12" rx="2" stroke-width="0.5" style="fill:rgb(121,31,31);stroke:rgb(240,149,149);"/>
-<text x="318" y="1335" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Disapproval/Conflict</text>
+<!-- ── ROW 5: Script Editor | Video Editor ── -->
 
-<rect x="460" y="1325" width="20" height="12" rx="2" stroke-width="0.5" style="fill:rgb(68,68,65);stroke:rgb(180,178,169);"/>
-<text x="488" y="1335" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Skip Action</text>
+<a href="javascript:go('scriptEditor')">
+  <rect x="50" y="520" width="200" height="56" rx="8" style="fill:rgb(99,56,6);stroke:rgb(239,159,39);stroke-width:0.5;"/>
+  <text x="150" y="538" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Script Editor</text>
+  <text x="150" y="554" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Max 2 rejections allowed</text>
+</a>
+
+<a href="javascript:go('videoEditor')">
+  <rect x="270" y="520" width="140" height="56" rx="8" style="fill:rgb(99,56,6);stroke:rgb(239,159,39);stroke-width:0.5;"/>
+  <text x="340" y="538" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Video Editor</text>
+  <text x="340" y="554" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Final polish</text>
+</a>
+
+<!-- Editors → Creative Director (approved) -->
+<path d="M250 548 L470 380" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#textmask)"/>
+<path d="M410 548 L470 380" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#textmask)"/>
+<path d="M630 458 L470 370" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none"/>
+
+<!-- Editors → Conflict Solver (if 2+ rejections) -->
+<path d="M250 548 L480 260" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="1" fill="none" stroke-dasharray="4 4" mask="url(#textmask)"/>
+<path d="M410 548 L550 275" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="1" fill="none" stroke-dasharray="4 4" mask="url(#textmask)"/>
+<text x="360" y="410" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">If 2+ rejections</text>
+
+<!-- CD → Human Approval Gate -->
+<line x1="340" y1="390" x2="340" y2="630" marker-end="url(#arrow)" stroke="#9C9A92" stroke-width="1.5" fill="none" mask="url(#textmask)"/>
+<text x="380" y="510" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Approved</text>
+
+<!-- ── ROW 6: Human Approval Gate ── -->
+
+<a href="javascript:go('humanApproval')">
+  <rect x="180" y="630" width="320" height="90" rx="8" style="fill:rgb(60,52,137);stroke:rgb(175,169,236);stroke-width:2;"/>
+  <text x="340" y="652" text-anchor="middle" dominant-baseline="central" style="font-size:16px;fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">Human Approval Gate</text>
+  <text x="340" y="670" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Marketing Lead reviews final creative</text>
+  <text x="340" y="686" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Decision: Approve OR Disapprove + Feedback</text>
+  <text x="340" y="702" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Max 2 disapprovals allowed</text>
+</a>
+
+<!-- ── APPROVED PATH (right) ── -->
+<line x1="500" y1="675" x2="570" y2="675" marker-end="url(#arrow)" stroke="#639922" stroke-width="2" fill="none"/>
+<text x="570" y="665" style="font-size:13px;fill:rgb(99,153,34);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">✓ APPROVED</text>
+
+<a href="javascript:go('schedulePosting')">
+  <rect x="570" y="640" width="90" height="70" rx="8" style="fill:rgb(39,80,10);stroke:rgb(151,196,89);stroke-width:1;"/>
+  <text x="615" y="665" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Schedule</text>
+  <text x="615" y="681" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">For</text>
+  <text x="615" y="697" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Posting</text>
+</a>
+
+<line x1="615" y1="710" x2="615" y2="800" marker-end="url(#arrow)" stroke="#639922" stroke-width="2" fill="none"/>
+
+<a href="javascript:go('contentScheduler')">
+  <rect x="520" y="800" width="190" height="70" rx="8" style="fill:rgb(114,36,62);stroke:rgb(237,147,177);stroke-width:0.5;"/>
+  <text x="615" y="822" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Content Scheduler</text>
+  <text x="615" y="838" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Posts to platforms</text>
+  <text x="615" y="854" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Tracks calendar</text>
+</a>
+
+<!-- ── DISAPPROVED PATH (left) ── -->
+<line x1="180" y1="675" x2="110" y2="675" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="2" fill="none"/>
+<text x="110" y="665" text-anchor="end" style="font-size:13px;fill:rgb(226,75,74);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">✗ DISAPPROVED</text>
+
+<a href="javascript:go('disapprovalCounter')">
+  <rect x="20" y="730" width="160" height="120" rx="8" style="fill:rgb(121,31,31);stroke:rgb(240,149,149);stroke-width:1;"/>
+  <text x="100" y="750" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Disapproval</text>
+  <text x="100" y="766" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Counter</text>
+  <text x="100" y="790" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Count = 1</text>
+  <text x="100" y="806" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">→ Rework with</text>
+  <text x="100" y="822" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">feedback</text>
+  <text x="100" y="840" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;">Count = 2 → SKIP</text>
+</a>
+
+<!-- 1st disapproval rework loop → Creative Director -->
+<path d="M100 730 L100 590 L210 355" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="1.5" fill="none" stroke-dasharray="4 4" mask="url(#textmask)"/>
+<text x="120" y="650" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">1st disapproval</text>
+<text x="120" y="666" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">+ feedback</text>
+
+<!-- 2nd disapproval → Skip Slot -->
+<path d="M100 850 L100 930 L240 930" marker-end="url(#arrow)" stroke="#E24B4A" stroke-width="2" fill="none"/>
+<text x="150" y="920" style="font-size:13px;fill:rgb(226,75,74);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-weight:500;">2nd → SKIP</text>
+
+<!-- Skip Slot -->
+<a href="javascript:go('skipSlot')">
+  <rect x="240" y="890" width="200" height="80" rx="8" style="fill:rgb(68,68,65);stroke:rgb(180,178,169);stroke-width:1;"/>
+  <text x="340" y="912" text-anchor="middle" dominant-baseline="central" style="fill:rgb(250,249,245);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;font-weight:500;">Skip Slot</text>
+  <text x="340" y="930" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Mark calendar slot empty</text>
+  <text x="340" y="946" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Move to next scheduled</text>
+  <text x="340" y="962" text-anchor="middle" dominant-baseline="central" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">creative in queue</text>
+</a>
+
+<!-- Return to Content Strategist (continue next brief) -->
+<path d="M440 920 L550 920 L550 102 L470 102" marker-end="url(#arrow)" stroke="#888780" stroke-width="1.5" fill="none" stroke-dasharray="4 4" mask="url(#textmask)"/>
+<text x="560" y="510" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Continue</text>
+<text x="560" y="526" opacity="0.7" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">next brief</text>
+
+<!-- ── LEGEND ── -->
+<rect x="40" y="985" width="20" height="12" rx="2" style="fill:rgb(99,56,6);stroke:rgb(239,159,39);stroke-width:0.5;"/>
+<text x="68" y="995" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">NEW: AI Model Recommender</text>
+<rect x="260" y="985" width="20" height="12" rx="2" style="fill:rgb(12,68,124);stroke:rgb(133,183,235);stroke-width:0.5;"/>
+<text x="288" y="995" style="fill:rgb(194,192,182);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;">Knowledge Base (not agents)</text>
+
 </svg>
-
 </body>
 </html>
